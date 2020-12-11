@@ -8,7 +8,7 @@
         <!-- INI FLASHMESSAGE -->
         <?php if ($this->session->flashdata('gagal_login')) : ?>
             <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                Username / Password salah !
+                Username/Password salah !
                 <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
